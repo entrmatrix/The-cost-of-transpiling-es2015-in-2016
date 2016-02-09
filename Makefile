@@ -83,3 +83,5 @@ size:
 	gzip -c src/dist/bundle.js | wc -c
 	bro --input src/dist/bundle.js | wc -c
 	@echo -----------------------------------------
+
+	node tools/grab-timeline.js
