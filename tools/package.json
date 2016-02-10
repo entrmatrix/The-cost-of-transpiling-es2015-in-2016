@@ -1,0 +1,27 @@
+{
+  "name": "transpiling-es2016-cost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "grab-timeline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samccone/The-cost-of-transpiling-es2015-in-2016.git"
+  },
+  "keywords": [
+    "transpiling",
+    "benchmark"
+  ],
+  "author": "Sam Saccone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samccone/The-cost-of-transpiling-es2015-in-2016/issues"
+  },
+  "homepage": "https://github.com/samccone/The-cost-of-transpiling-es2015-in-2016#readme",
+  "dependencies": {
+    "bigrig": "^1.2.2",
+    "chrome-remote-interface": "^0.11.0"
+  }
+}
